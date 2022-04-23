@@ -58,7 +58,8 @@ Comparison of all six machine learning models used in this analysis, specificall
 
 
 ## Summary
-* Summary of results
-* Recommendation on which model to use, or there is no recommendation with a justification
+* When comparing all 6 algorithms for predicting high and low risk loan applicants, the EasyEnsembleClassifier produced the highest accuracy score of 92%. The undersampling algorithm, ClusterCentroids, produced the lowest accuracy score at 52.9%. All of the models had low precision scores for high risk applicants which is indicative of a large number of false positives. However, it is better in this case to have more false positives than false negatives when looking at high risk credit applicants.
+
+* I would recommend using the EasyEnsembleClassifier to predict the high risk candidates. The accuracy score of 92% is much higher than the other 5 models. It also had a better precision score of 7% and a much higher recall which indicates fewer false negatives. 
 
 
