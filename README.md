@@ -42,9 +42,12 @@ Comparison of all six machine learning models used in this analysis, specificall
     
 
 * BalancedRandomForestClassifier
-    * Balanced Accuracy Score:
-    * Precision Score:
-    * Recall Score:
+    * Balanced Accuracy Score: 67.2%
+    * Precision Score: high risk = 73%, low risk = 100%
+    * Recall Score: high risk = 34%, low risk = 100%
+
+    ![Image of Balanced Random Forest](https://github.com/jcourt99/Credit_Risk_Analysis/blob/main/Images/Random_Forest_classification.jpg)
+    
 
 * EasyEnsembleClassifier
     * Balanced Accuracy Score:
