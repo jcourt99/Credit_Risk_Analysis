@@ -10,43 +10,46 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 Comparison of all six machine learning models used in this analysis, specifically, the balanced accuracy scores, precision scores and recall scores:
 
 * RandomOverSampler (Oversampling)
-    * Balanced Accuracy Score = 64.1%
-    * Precision Score = high risk = 1%, low risk = 100%
-    * Recall Score = high risk = 60%, low risk = 68%
+    * Balanced Accuracy Score: 64.1%
+    * Precision Score: high risk = 1%, low risk = 100%
+    * Recall Score: high risk = 60%, low risk = 68%
 
     ![Image of RandomOverSampler](https://github.com/jcourt99/Credit_Risk_Analysis/blob/main/Images/RandomOverSampler_classification.jpg)
 
 
 * SMOTE (Oversampling)
-    * Balanced Accuracy Score = 63.7%
-    * Precision Score = high risk = 1%, low risk = 100%
-    * Recall Score = high risk = 60%, low risk = 68%
+    * Balanced Accuracy Score: 63.7%
+    * Precision Score: high risk = 1%, low risk = 100%
+    * Recall Score: high risk = 60%, low risk = 68%
 
     ![Image of SMOTE](https://github.com/jcourt99/Credit_Risk_Analysis/blob/main/Images/SMOTE_classification.jpg)
 
 
 * Cluster Centroids (Undersampling)
-    * Balanced Accuracy Score = 52.9%
-    * Precision Score = high risk = 1%, low risk = 100%
-    * Recall Score = high risk = 61%, low risk = 45%
+    * Balanced Accuracy Score: 52.9%
+    * Precision Score: high risk = 1%, low risk = 100%
+    * Recall Score: high risk = 61%, low risk = 45%
 
     ![Image of Cluster Centroids](https://github.com/jcourt99/Credit_Risk_Analysis/blob/main/Images/Centroid_Cluster_classification.jpg)
     
 
-* SMOTEENN
-    * Balanced Accuracy Score = 
-    * Precision Score = 
-    * Recall Score = 
+* SMOTEENN (Combination sampling)
+    * Balanced Accuracy Score: 63.9%
+    * Precision Score: high risk = 1%, low risk = 100%
+    * Recall Score: high risk = 70%, low risk = 58%
+
+    ![Image of SMOTEENN](https://github.com/jcourt99/Credit_Risk_Analysis/blob/main/Images/SMOTEENN_classification.jpg)
+    
 
 * BalancedRandomForestClassifier
-    * Balanced Accuracy Score = 
-    * Precision Score = 
-    * Recall Score = 
+    * Balanced Accuracy Score:
+    * Precision Score:
+    * Recall Score:
 
 * EasyEnsembleClassifier
-    * Balanced Accuracy Score = 
-    * Precision Score = 
-    * Recall Score = 
+    * Balanced Accuracy Score:
+    * Precision Score:
+    * Recall Score:
 
 
 ## Summary
