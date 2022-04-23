@@ -10,19 +10,19 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 Comparison of all six machine learning models used in this analysis, specifically, the balanced accuracy scores, precision scores and recall scores:
 
 * RandomOverSampler
-    * Balanced Accuracy Score = 
-    * Precision Score = 
-    * Recall Score = 
+    * Balanced Accuracy Score = 64.1%
+    * Precision Score = high risk = 1%, low risk = 100%
+    * Recall Score = high risk = 60%, low risk = 68%
 
 * SMOTE
-    * Balanced Accuracy Score = 
-    * Precision Score = 
-    * Recall Score = 
+    * Balanced Accuracy Score = 63.7%
+    * Precision Score = high risk = 1%, low risk = 100%
+    * Recall Score = high risk = 60%, low risk = 68%
 
 * ClusterCentroids
-    * Balanced Accuracy Score = 
-    * Precision Score = 
-    * Recall Score = 
+    * Balanced Accuracy Score = 52.9%
+    * Precision Score = high risk = 1%, low risk = 100%
+    * Recall Score = high risk = 61%, low risk = 45%
 
 * SMOTEENN
     * Balanced Accuracy Score = 
